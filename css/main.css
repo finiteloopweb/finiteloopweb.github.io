@@ -114,6 +114,7 @@ h1 {
 .button-filled:hover {
 	color: #212121;
 	background-color: white;
+	font-weight: normal;
 }
 
 .button-filled-reverse {
@@ -182,6 +183,7 @@ nav a:hover {
 
 #hero-content {
 	height: 100vh;
+	min-height: 800px;
 }
 
 #hero a {
@@ -195,7 +197,7 @@ nav a:hover {
 
 #hero h1 {
 	text-align: left;
-	max-width: 440px;
+	max-width: 275px;
 	font-size: 1.8em;
 	color: white;
 }
@@ -333,7 +335,7 @@ footer {
 
 /* Mobile */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 937px) {
 	#hero {
 		background-image: none;
 		background-color: #950000;
@@ -347,6 +349,10 @@ footer {
 	#contact {
 		background-image: none;
 		background-color: #FFF;
+	}
+	
+	nav a:hover {
+		color: #424242;
 	}
 	
 }
