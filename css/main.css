@@ -293,8 +293,9 @@ nav a:hover {
 	height: 20px;
 	padding: 10px;
 	margin: 10px;
-	border-color: #950000;
+	background-color: gainsboro;
 	border-radius: 5px;
+	border: none;
 }
 
 #contact input[type=submit] {
@@ -315,12 +316,15 @@ nav a:hover {
 }
 
 #contact textarea {
-	width: 200px;
+	min-width: 200px;
+	max-width: 200px;
+	min-height: 20px;
 	height: 200px;
 	padding: 10px;
 	margin: 10px;
-	border-color: #950000;
 	border-radius: 5px;
+	background-color: gainsboro;
+	border: none;
 }
 
 /* Footer */
