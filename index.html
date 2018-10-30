@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<meta charset="utf-8">
+		<link href="css/main.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
+		<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+		
+	</head>
+	
+	<body>
+	
+		<div class="navbar">
+			<a href="#hero"><img src="images/logo.png" alt="FiniteLoop" id="logo"></a>
+			<h2 id="title">finite<strong>loop</strong></h2>
+			
+			<nav>
+				<a href="#hero">Home</a>
+				<a href="#about">About</a>
+				<a href="#work">Work</a>
+				<a href="#pricing">Pricing</a>
+				<a href="#contact" class="button-filled">Contact</a>
+			</nav>
+		</div>
+		
+		<section id="hero">
+			<div class="content">
+				<div class="container-reverse-hero" id="hero-content">
+
+					<div>
+						<h1>Create an Experience, not a Website</h1>
+						<p>An online presence is an integral in modern business. Stay ahead of your competition with custom-designed websites.</p>
+						<br>
+						<a href="#about" class="button-filled-reverse">Learn More</a>
+					</div>
+
+					<img src="images/logo_text.png">
+
+				</div>
+			</div>
+		</section>
+			
+		<section id="about">
+			<div class="content">
+				<div class="container-reverse">
+					<div>
+						<h2>Simple and Beautiful</h2>
+						<p>You don't need a complex website to impress your visitors. Some of the best websites use simple colors, transitions, and design to focus on the message.</p>
+					</div>
+					<img src="images/Generic-Website.png">
+				</div>
+				<div class="container">
+					<img src="images/Mobile.png">
+					<div>
+						<h2>Lightweight and Responsive</h2>
+						<p>With most people viewing websites on their phones, it's important that they load quickly and look good on smaller screens. We design our websites to do both, so your customers have the best experience possible</p>
+					</div>
+				</div>
+			</div>
+		</section>
+			
+		<section id="work">
+			<div class="content">
+				<h1>Our Work</h1>
+				<div class="container">
+
+					<a href="#hero"><img src="images/sites/FL.png" class="tile"></a>
+					<a href="http://richdmartin.me"><img src="images/sites/personal.png" class="tile"></a>
+					<a href="#"><img src="images/sites/echo.png" class="tile"></a>
+					<a href="#"><img src="images/sites/LCM.png" class="tile"></a>
+
+				</div>
+			</div>
+		</section>
+			
+		<section id="pricing">
+			<div class="content">
+				<h1>Pricing</h1>
+				<div class="container">
+
+					<div class="card">
+						<img src="images/icon-basic.png">
+						<h2>Basic Plan</h2>
+						<ul>
+							<li>One Page</li>
+							<li>Responsive</li>
+						</ul>
+						<br>
+						<a href="#" class="button-filled">Get Started</a>
+					</div>
+
+					<div class="card">
+						<img src="images/icon-plus.png">
+						<h2>Plus Plan</h2>
+						<ul>
+							<li>Five Pages</li>
+							<li>Custom Graphics</li>
+							<li>Responsive</li>
+						</ul>
+						<a href="#" class="button-filled">Get Started</a>
+					</div>
+
+					<div class="card">
+						<img src="images/icon-pro.png">
+						<h2>Pro Plan</h2>
+						<ul>
+							<li>Unlimited Pages</li>
+							<li>Custom Graphics</li>
+							<li>Responsive</li>
+						</ul>
+						<a href="#" class="button-filled">Get Started</a>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		
+		<section id="contact">
+			
+			<div class="content">
+				<div class="container-reverse">
+			
+					<img src="images/mail.png">
+
+					<div id="form-holder">
+						<div id="form-header">
+							<h2>Contact Us</h2>
+						</div>
+						<form action="https://formspree.io/your@email.com" method="POST">
+							<input type="text" name="name" placeholder="Name">
+							<br>
+							<input type="email" name="_replyto" placeholder="Email">
+							<br>
+							<textarea name="message" placeholder="Message"></textarea>
+							<br>
+							<input type="submit" value="Send">
+						</form>
+					</div>
+				</div>
+			</div>
+		
+		</section>
+			
+		
+		<footer>
+			<p>&copy; Finite Loop, 2018</p>
+		</footer>
+		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(window).scroll(function(){
+					if ($(this).scrollTop() > 50){
+						$(".navbar").css({"background-color" : "#FFFFFF", "box-shadow" : "0px 0px 10px #636363", "transition" : "0.5s"})
+						$("#title").css({"color" : "#212121", "transition" : "0.5s"})
+					}
+					else {
+						$(".navbar").css({"background-color" : "rgba(0,0,0,0)", "box-shadow" : "0px 0px 0px #424242", "transition" : "0.5s"})
+						$("#title").css({"color" : "#FFF", "transition" : "0.5s"})
+					}
+				})
+			})
+		</script>
+		<script type="text/javascript">
+			$('a[href*="#"]').on('click', function (e) {
+				e.preventDefault();
+
+				$('html, body').animate({
+					scrollTop: $($(this).attr('href')).offset().top
+				}, 400, 'linear');
+			});
+		</script>
+	
+	</body>
+
+</html>
