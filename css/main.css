@@ -54,7 +54,7 @@ h1 {
 .next {
 	display: block;
 	margin: 0 auto;
-	margin-top: 50px;
+	padding: 50px;
 	max-width: 20px;
 	opacity: 0.8;
 }
@@ -383,6 +383,11 @@ footer {
 		margin-left: 0;
 		margin-right: 0;
 		padding: 0;
+	}
+	
+	#hero-content {
+		min-height: 700px;
+		margin-bottom: 0px;
 	}
 	
 	#work {
