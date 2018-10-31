@@ -241,12 +241,13 @@ nav a:hover {
 }
 
 #about p {
-	width: 400px;
+	width: 30vw;
 	color: white;
 }
 
-#about img {
+.image {
 	width: 400px;
+	margin: 20px;
 }
 
 /* Work */
@@ -349,6 +350,10 @@ nav a:hover {
 	border-radius: 5px;
 	background-color: gainsboro;
 	border: none;
+}
+
+#mail {
+	margin: 20px;
 }
 
 /* Footer */
