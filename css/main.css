@@ -387,11 +387,12 @@ footer {
 	}
 	
 	#hero-logo {
-		margin-top: 60px;
+		padding-top: 60px;
+		padding-bottom: 0px;
 	}
 	
 	#hero-content {
-		min-height: 600px;
+		min-height: 650px;
 		margin-bottom: 0px;
 	}
 	
