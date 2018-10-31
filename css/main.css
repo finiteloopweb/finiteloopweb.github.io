@@ -187,6 +187,15 @@ nav a {
 	padding: 15px;
 }
 
+nav ul {
+	margin: 0;
+	list-style-type: none;
+}
+
+nav ul li {
+	float: left;
+}
+
 nav a:hover {
 	color: #950000;
 	font-weight: bold;
@@ -400,6 +409,10 @@ footer {
 	
 	p {
 		max-width: 85vw;
+	}
+	
+	nav ul li {
+		display: none;
 	}
 	
 }
