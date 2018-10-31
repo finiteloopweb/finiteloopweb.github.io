@@ -210,8 +210,8 @@ nav a:hover {
 }
 
 #hero-content {
-	max-height: 65vh;
-
+	min-height: 75vh;
+	max-height: 85vh;
 }
 
 #hero a {
