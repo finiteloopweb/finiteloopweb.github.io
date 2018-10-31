@@ -183,7 +183,7 @@ nav a:hover {
 
 #hero-content {
 	height: 100vh;
-	min-height: 800px;
+	min-height: 900px;
 }
 
 #hero a {
@@ -191,13 +191,13 @@ nav a:hover {
 }
 
 #hero img {
-	width: 300px;
+	width: 400px;
 	padding: 50px;
 }
 
 #hero h1 {
 	text-align: left;
-	max-width: 275px;
+	max-width: 300px;
 	font-size: 1.8em;
 	color: white;
 }
@@ -345,6 +345,13 @@ footer {
 		background-color: #950000;
 	}
 	
+	#hero h1 {
+		text-align: center;
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
+	}
+	
 	#work {
 		background-image: none;
 		background-color: #FFF;
@@ -357,6 +364,10 @@ footer {
 	
 	nav a:hover {
 		color: #424242;
+	}
+	
+	body {
+		text-align: center;
 	}
 	
 }
