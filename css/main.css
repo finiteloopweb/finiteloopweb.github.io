@@ -241,13 +241,12 @@ nav a:hover {
 }
 
 #about p {
-	width: 30vw;
+	width: 400px;
 	color: white;
 }
 
-.image {
+#about img {
 	width: 400px;
-	margin: 20px;
 }
 
 /* Work */
@@ -352,10 +351,6 @@ nav a:hover {
 	border: none;
 }
 
-#mail {
-	margin: 20px;
-}
-
 /* Footer */
 footer {
 	width: 100%;
@@ -397,6 +392,14 @@ footer {
 	
 	body {
 		text-align: center;
+	}
+	
+	img {
+		max-width: 85vw;
+	}
+	
+	p {
+		max-width: 85vw;
 	}
 	
 }
