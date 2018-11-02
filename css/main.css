@@ -16,6 +16,7 @@ body {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-color: #FFFFFF;
+	background-size: cover;
 	margin: 0;
 }
 
@@ -148,6 +149,31 @@ h1 {
 .button-filled-reverse:hover {
 	color: white;
 	background-color: #212121;
+}
+
+.button-filled-icon {
+	text-decoration: none;
+	color: white;
+	background-color: #212121;
+	border-radius: 20px;
+	padding: 3px 30px 3px 0px;
+	box-shadow: 0px 0px 5px #212121;
+}
+
+.button-filled-icon:hover {
+	color: #212121;
+	background-color: white;
+	font-weight: normal;
+}
+
+.button-filled-icon img {
+	position: relative;
+	vertical-align: middle;
+	width: 30px;
+	margin-top: 0;
+	padding-right: 10px;
+	padding-left: 1px;
+	padding-bottom: 1px;
 }
 
 /* Navigation */
