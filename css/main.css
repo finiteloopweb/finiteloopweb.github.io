@@ -124,23 +124,28 @@ h1 {
 
 /* Tooltip */
 
+.tooltip {
+	width: 295px;
+	text-align: center;
+}
+
 .tooltip .tooltiptext {
+	display: inline-block;
 	visibility: hidden;
+	position: relative;
     background-color: black;
     color: #fff;
     text-align: center;
     padding: 5px 10px;
     border-radius: 6px;
-	margin-left: -200px;
+	margin: 0 auto;
 	left: 0;
-    width: 200px;
 	opacity: 0.8;
-	position: relative;
 }
 
 .tooltip:hover .tooltiptext {
 	visibility: visible;
-	transition: 0.1s;
+	transition: 0.5s;
 }
 
 /* Buttons */
