@@ -133,12 +133,11 @@ h1 {
 	display: inline-block;
 	visibility: hidden;
 	position: relative;
-    background-color: black;
+    background-color: #212121;
     color: #fff;
     text-align: center;
     padding: 5px 10px;
     border-radius: 6px;
-	margin: 0 auto;
 	left: 0;
 	opacity: 0.8;
 }
