@@ -122,6 +122,27 @@ h1 {
 	transition: 0.25s;
 }
 
+/* Tooltip */
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 6px;
+	margin-left: -200px;
+	left: 0;
+    width: 200px;
+	opacity: 0.8;
+	position: relative;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+	transition: 0.1s;
+}
+
 /* Buttons */
 
 .button-filled {
