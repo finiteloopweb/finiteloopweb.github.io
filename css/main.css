@@ -76,7 +76,6 @@ section {
 	width: 300px;
 	background-color: white;
 	border-radius: 10px;
-	box-shadow: 0px 0px 10px #636363;
 	margin: 30px 0px;
 	text-align: center;
 	position: relative;
@@ -178,6 +177,20 @@ section {
 }
 
 .button-filled-reverse:hover {
+	color: white;
+	background-color: #212121;
+}
+
+.button-outline {
+	text-decoration: none;
+	color: #212121;
+	background-color: #FFF;
+	border-radius: 20px;
+	padding: 3px 20px;
+	border: 2px solid #212121;
+}
+
+.button-outline:hover {
 	color: white;
 	background-color: #212121;
 }
