@@ -114,11 +114,6 @@ hr {
     color: #368FCE;
 }
 
-#logo {
-    width: 60px;
-    margin: 0 48vw;
-}
-
 /* Media */
 
 @media only screen and (max-width: 1125px) {
