@@ -1,4 +1,8 @@
 /* Page-Wide */
+body { 
+    overflow-x: hidden;
+}
+
 h1 {
     color: white;
 }
@@ -110,6 +114,11 @@ hr {
     color: #368FCE;
 }
 
+#logo {
+    width: 60px;
+    margin: 0 48.5%;
+}
+
 /* Media */
 
 @media only screen and (max-width: 1125px) {
@@ -122,6 +131,6 @@ hr {
     }
     
     nav a {
-        
+        text-align: left;
     }
 }
