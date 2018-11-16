@@ -227,6 +227,7 @@ body {
 .blaze-icon-m {
     width: 40px;
     vertical-align: middle;
+    filter: invert(.5) sepia(1) saturate(5) hue-rotate(175deg) brightness(.3);
 }
 
 /* Images */
