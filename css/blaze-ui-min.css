@@ -411,6 +411,12 @@ body {
     padding: 80px 15%;
 }
 
+.blaze-footer {
+    width: 60vw;
+    background-color: #1A1D30;
+    padding: 20px 20%;
+}
+
 /* Media */
 
 @media only screen and (max-width: 1125px) {
@@ -434,6 +440,11 @@ body {
     .blaze-p-dark, .blaze-p-light {
         min-width: 80%;
         margin: 0 auto;
+    }
+    
+    .blaze-footer {
+        width: 70vw;
+        padding: 20px 15%;
     }
     
 }

@@ -90,15 +90,9 @@ body {
 
 /* Footer */
 
-footer {
-    width: 60vw;
-    background-color: #1A1D30;
-    padding: 20px 20%;
-}
-
 dl {
     text-align: left;
-    width: 150px;
+    width: 120px;
     height: 125px;
 }
 
