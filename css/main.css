@@ -130,12 +130,3 @@ hr {
     color: #368FCE;
     width: 100px;
 }
-
-/* Media */
-
-@media only screen and (max-width: 1125px) {
-
-    #hero-content {
-        margin: 0 10%;
-    }
-}
