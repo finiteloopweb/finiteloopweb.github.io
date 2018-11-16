@@ -407,6 +407,10 @@ body {
     background-color: white;
 }
 
+.blaze-section {
+    padding: 80px 15%;
+}
+
 /* Media */
 
 @media only screen and (max-width: 1125px) {
@@ -419,7 +423,7 @@ body {
         display: none;
     }
     
-    .blaze-section-light, .blaze-section-dark {
+    .blaze-section-light, .blaze-section-dark, .blaze-section {
         padding: 80px 10%;
     }
     
