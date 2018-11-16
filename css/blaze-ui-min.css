@@ -338,17 +338,13 @@ body {
 .blaze-nav a {
     text-decoration: none;
     text-transform: uppercase;
+    display: inline-block;
+    padding: 0 10px;
     color: #1A1D30;
 }
 
 .blaze-nav a:hover {
     opacity: 0.8;
-}
-
-.blaze-nav ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 0 10px;
 }
 
 .blaze-nav span {
@@ -401,12 +397,6 @@ body {
     
     .blaze-nav.responsive {
         position: relative;
-    }
-    
-    .blaze-nav.responsive a.icon {
-        position: absolute;
-        right: 0;
-        top: 0;
     }
     
     .blaze-nav.responsive a {
