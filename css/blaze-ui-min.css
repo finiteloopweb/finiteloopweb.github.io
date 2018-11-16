@@ -345,6 +345,10 @@ body {
     opacity: 0.6;
 }
 
+.blaze-nav a:active {
+    color: #4facfe;
+}
+
 .blaze-nav ul {
     list-style: none;
 }
