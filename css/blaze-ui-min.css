@@ -175,7 +175,8 @@ body {
 .blaze-primary-button:hover,
 .blaze-secondary-button:hover,
 .blaze-negative-button:hover,
-.blaze-outline-button:hover {
+.blaze-outline-button:hover,
+.blaze-outline-button-dark:hover {
     transform: scale(1.05);
     transition: 0.25s;
 }
