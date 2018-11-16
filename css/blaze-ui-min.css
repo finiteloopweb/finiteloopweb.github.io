@@ -12,69 +12,57 @@ body {
 
 /* Text */
 
-h1 {
-    font-size: 3em;
-    margin: 10px;
-}
-
 .blaze-h1-dark {
+    text-align: center;
     font-size: 3em;
     margin: 10px;
     color: #1A1D30;
 }
 
 .blaze-h1-light {
+    text-align: center;
     font-size: 3em;
     margin: 10px;
     color: white;
 }
 
-h2 {
-    font-size: 2em;
-    margin: 10px;
-}
-
 .blaze-h2-dark {
+    text-align: center;
     font-size: 2em;
     margin: 10px;
     color: #1A1D30;
 }
 
 .blaze-h2-light {
+    text-align: center;
     font-size: 2em;
     margin: 10px;
     color: white;
 }
 
-h3 {
-    font-size: 1em;
-    margin: 10px;
-}
-
 .blaze-h3-dark {
+    text-align: center;
     font-size: 1em;
     margin: 10px;
     color: #1A1D30;
 }
 
 .blaze-h3-light {
+    text-align: center;
     font-size: 1em;
     margin: 10px;
     color: white;
 }
 
-h4 {
-    text-transform: uppercase;
-    margin: 10px;
-}
-
 .blaze-h4-dark {
+    text-align: center;
     text-transform: uppercase;
     margin: 10px;
     color: #1A1D30;
 }
 
 .blaze-h4-light {
+    text-align: center;
     text-transform: uppercase;
     margin: 10px;
     color: white;
