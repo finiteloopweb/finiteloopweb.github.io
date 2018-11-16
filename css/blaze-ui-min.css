@@ -338,17 +338,24 @@ body {
 .blaze-nav a {
     text-decoration: none;
     text-transform: uppercase;
-    display: inline-block;
-    padding: 0 10px;
     color: #1A1D30;
 }
 
 .blaze-nav a:hover {
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
-.blaze-nav span {
-    display: none;
+.blaze-nav ul {
+    list-style: none;
+}
+
+.blaze-nav ul li {
+    padding: 0 10px;
+    display: inline-block;
+}
+
+.blaze-nav-text {
+    float: right;
 }
 
 /* Content */
@@ -387,24 +394,18 @@ body {
         padding: 0 5%;
     }
     
-    .blaze-nav a {
+    .blaze-nav {
+        padding-right: 8%;
+    }
+    
+    .blaze-nav-text {
         display: none;
     }
     
-    .blaze-nav a.icon {
-        display: block;
+    .blaze-nav-icon {
+        transform: scale(2);
     }
-    
-    .blaze-nav.responsive {
-        position: relative;
-    }
-    
-    .blaze-nav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-    
+
     .blaze-flex-start, .blaze-flex-center {
         margin: 0 5%;
     } 
