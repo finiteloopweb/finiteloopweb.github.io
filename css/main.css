@@ -134,9 +134,6 @@ hr {
 /* Media */
 
 @media only screen and (max-width: 1125px) {
-    body {
-        text-align: center;
-    }
 
     #hero-content {
         margin: 0 10%;
