@@ -215,6 +215,20 @@ body {
 	transition: 0.5s;
 }
 
+/* Icon */
+
+.blaze-icon-nav {
+    width: 20px;
+    vertical-align: middle;
+    margin-bottom: 3px;
+    margin-right: 5px;
+}
+
+.blaze-icon-m {
+    width: 40px;
+    vertical-align: middle;
+}
+
 /* Images */
 
 .blaze-img-round-s {
@@ -341,8 +355,9 @@ body {
     color: #1A1D30;
 }
 
-.blaze-nav a:hover {
-    opacity: 0.6;
+.blaze-nav a:hover, .blaze-nav a.active, .blaze-icon-nav path {
+    color: #4facfe;
+    filter: invert(.5) sepia(1) saturate(5) hue-rotate(175deg);
 }
 
 .blaze-nav ul {
@@ -356,10 +371,6 @@ body {
 
 .blaze-nav-text {
     float: right;
-}
-
-.blaze-nav-text:hover {
-    opacity: 0.6;
 }
 
 /* Content */
@@ -404,10 +415,6 @@ body {
     
     .blaze-nav-text {
         display: none;
-    }
-    
-    .blaze-nav-icon {
-        transform: scale(2);
     }
 
     .blaze-flex-start, .blaze-flex-center {
