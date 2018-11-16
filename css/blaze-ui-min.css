@@ -345,10 +345,6 @@ body {
     opacity: 0.6;
 }
 
-.active {
-    color: #4facfe;
-}
-
 .blaze-nav ul {
     list-style: none;
 }
@@ -360,6 +356,10 @@ body {
 
 .blaze-nav-text {
     float: right;
+}
+
+.blaze-nav-text:hover {
+    opacity: 0.6;
 }
 
 /* Content */
