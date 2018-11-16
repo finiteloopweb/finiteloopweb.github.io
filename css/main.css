@@ -23,6 +23,10 @@ body {
     max-width: 350px;
 }
 
+#intro h1 {
+    line-height: 1.5em;
+}
+
 /* About */
 
 .why-content {
