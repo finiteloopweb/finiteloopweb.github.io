@@ -88,8 +88,9 @@ section {
 
 /* Pricing */
 
-#pricing {
-    margin-top: 50px;
+#pricing h1 {
+    text-align: center;
+    margin: 0 auto;
 }
 
 #pricing-text {
