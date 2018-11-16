@@ -3,17 +3,6 @@ body {
     overflow-x: hidden;
 }
 
-h2 {
-    text-align: center;
-}
-
-h4 {
-    color: white;
-}
-section {
-    padding: 100px 0;
-}
-
 /* Home */
 #hero {
     background-image: url(../images/bg/hero.svg);
@@ -31,7 +20,6 @@ section {
 
 #intro p {
     margin-bottom: 20px;
-    margin-left: 10px;
     max-width: 350px;
 }
 
@@ -40,6 +28,7 @@ section {
 .why-content {
     width: 200px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 #why-text {
@@ -94,6 +83,7 @@ section {
 }
 
 #pricing-text {
+    margin-top: 50px;
     width: 100%;
     text-align: center;
 }
@@ -101,12 +91,13 @@ section {
 /* Footer */
 
 footer {
-    width: 100vw;
+    width: 60vw;
     background-color: #1A1D30;
-    padding: 20px 0;
+    padding: 20px 20%;
 }
 
 dl {
+    text-align: left;
     width: 150px;
     height: 125px;
 }
@@ -149,9 +140,5 @@ hr {
 
     #hero-content {
         margin: 0 10%;
-    }
-    
-    p {
-        max-width: 350px;
     }
 }

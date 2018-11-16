@@ -69,11 +69,15 @@ body {
 }
 
 .blaze-p-dark {
+    text-align: center;
     color: #1A1D30;
+    margin: 0 auto;
 }
 
 .blaze-p-light {
+    text-align: center;
     color: white;
+    margin: 0 auto;
 }
 
 /* Sizes */
@@ -299,7 +303,7 @@ body {
     margin-bottom: 50px;
 }
 
-.blaze-card-light ul, .blaze-card-dark ul {
+.blaze-card-light ul li, .blaze-card-dark ul li {
     margin-left: 40px;
     text-align: left;
 }
@@ -377,7 +381,6 @@ body {
 /* Content */
 
 .blaze-flex-start {
-    margin: 0 15%;
     display: flex;
     flex-flow: row wrap;
     align-content: space-around;
@@ -386,19 +389,21 @@ body {
 }
 
 .blaze-flex-center {
-    margin: 0 15%;
     display: flex;
     flex-flow: row wrap;
     align-content: space-around;
     align-items: center;
     justify-content: space-around;
+    text-align: center;
 }
 
 .blaze-section-dark {
     background-color: #1A1D30;
+    padding: 80px 15%;
 }
 
 .blaze-section-light {
+    padding: 80px 15%;
     background-color: white;
 }
 
@@ -417,13 +422,18 @@ body {
     .blaze-nav-text {
         display: none;
     }
-
-    .blaze-flex-start, .blaze-flex-center {
-        margin: 0 5%;
-    } 
+    
+    .blaze-section-light, .blaze-section-dark {
+        padding: 80px 10%;
+    }
     
     .blaze-size-xs, .blaze-size-s, .blaze-size-m, .blaze-size-l, .blaze-size-xl {
         margin: 0 auto;
-    } 
+    }
+    
+    .blaze-p-dark, .blaze-p-light {
+        min-width: 80%;
+        margin: 0 auto;
+    }
     
 }
