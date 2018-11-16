@@ -1,0 +1,408 @@
+/*
+Designed by Richard Martin. For FiniteLoop Web Development Only.
+Started on 11/15/18.
+*/
+
+/* General */
+
+body {
+    margin: 0;
+    font-family: 'Mukta';
+}
+
+/* Text */
+
+h1 {
+    font-size: 3em;
+    margin: 10px;
+}
+
+.blaze-h1-dark {
+    font-size: 3em;
+    margin: 10px;
+    color: #1A1D30;
+}
+
+.blaze-h1-light {
+    font-size: 3em;
+    margin: 10px;
+    color: white;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 10px;
+}
+
+.blaze-h2-dark {
+    font-size: 2em;
+    margin: 10px;
+    color: #1A1D30;
+}
+
+.blaze-h2-light {
+    font-size: 2em;
+    margin: 10px;
+    color: white;
+}
+
+h3 {
+    font-size: 1em;
+    margin: 10px;
+}
+
+.blaze-h3-dark {
+    font-size: 1em;
+    margin: 10px;
+    color: #1A1D30;
+}
+
+.blaze-h3-light {
+    font-size: 1em;
+    margin: 10px;
+    color: white;
+}
+
+h4 {
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.blaze-h4-dark {
+    text-transform: uppercase;
+    margin: 10px;
+    color: #1A1D30;
+}
+
+.blaze-h4-light {
+    text-transform: uppercase;
+    margin: 10px;
+    color: white;
+}
+
+.blaze-p-dark {
+    color: #1A1D30;
+}
+
+.blaze-p-light {
+    color: white;
+}
+
+/* Sizes */
+
+.blaze-size-xs {
+    width: 10%;
+    height: 10%;
+}
+
+.blaze-size-s {
+    width: 25%;
+    height: 25%;
+}
+
+.blaze-size-m {
+    width: 50%;
+    height: 50%;
+}
+
+.blaze-size-l {
+    width: 75%;
+    height: 75%;
+}
+
+.blaze-size-xl {
+    width: 90%;
+    height: 90%;
+}
+
+/* Shadows */
+
+.blaze-shadow-s {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+.blaze-shadow-m {
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.blaze-shadow-l {
+    box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+
+/* Buttons */
+
+.blaze-primary-button {
+    padding: 15px 40px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #1A1D30;
+    border: 2px solid #1A1D30;
+    border-radius: 50px;
+    margin: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    text-align: center;
+}
+
+.blaze-negative-button {
+    padding: 15px 40px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #FF3700;
+    border: 2px solid #FF3700;
+    border-radius: 50px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+}
+
+.blaze-outline-button {
+    padding: 15px 40px;
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+}
+
+.blaze-outline-button-dark {
+    padding: 15px 40px;
+    text-transform: uppercase;
+    color: #1A1D30;
+    background-color: transparent;
+    border: 2px solid #1A1D30;
+    border-radius: 50px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+}
+
+.blaze-primary-button:hover,
+.blaze-secondary-button:hover,
+.blaze-negative-button:hover,
+.blaze-outline-button:hover {
+    transform: scale(1.05);
+    transition: 0.25s;
+}
+
+.blaze-primary-button:active,
+.blaze-secondary-button:active,
+.blaze-negative-button:active,
+.blaze-outline-button:active {
+    opacity: 0.8;
+    transition: 0.25s;
+}
+
+/* Tooltip */
+
+.blaze-tooltip {
+	width: 295px;
+	text-align: center;
+}
+
+.blaze-tooltip .blaze-tooltiptext {
+	display: inline-block;
+	visibility: hidden;
+	position: relative;
+    background-color: #1A1D30;
+    color: #fff;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 6px;
+	left: 0;
+	opacity: 0.8;
+}
+
+.blaze-tooltip:hover .blaze-tooltiptext {
+    margin-top: 20px;
+	visibility: visible;
+	transition: 0.5s;
+}
+
+/* Images */
+
+.blaze-img-round-s {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.blaze-img-round-m {
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.blaze-img-round-l {
+    width: 500px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.blaze-img-sq-s {
+    width: 100px;
+    border-radius: 5%;
+}
+
+.blaze-img-sq-m {
+    width: 300px;
+    border-radius: 5%;
+}
+
+.blaze-img-sq-l {
+    width: 500px;
+    border-radius: 5%;
+}
+
+/* Tile */
+
+.blaze-tile {
+    width: 250px;
+    height: 250px;
+    margin: 30px 0 10px 0;
+    padding: 10px;
+    background-color: white;
+}
+
+.blaze-tile:hover {
+    transform: scale(1.1);
+    transition: 0.25s;
+}
+
+/* Card */
+
+.blaze-card-dark {
+    padding: 20px;
+    border-radius: 5%;
+    background-color: #1A1D30;
+    text-align: center;
+    margin-bottom: 50px;
+    max-width: 300px;
+}
+
+.blaze-card-light {
+    padding: 20px;
+    border-radius: 5%;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.blaze-card-light ul, .blaze-card-dark ul {
+    margin-left: 40px;
+    text-align: left;
+}
+
+/* Form */
+
+.blaze-form-input {
+    width: 250px;
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    opacity: 0.8;
+    font-size: 1em;
+    color: #1A1D30;
+    margin: 10px;
+}
+
+/* Navigation */
+
+.blaze-navbar {
+    top: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    height: 80px;
+    background-color: white;
+    padding: 0 15vw;
+    z-index: 1;
+}
+
+.blaze-navbar-transparent {
+    top: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    height: 80px;
+    padding: 0 15vw;
+    z-index: 1;
+}
+
+.blaze-logo {
+    height: 75px;
+}
+
+.blaze-nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #1A1D30;
+}
+
+.blaze-nav a:hover {
+    opacity: 0.8;
+}
+
+.blaze-nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+/* Content */
+
+.blaze-flex-start {
+    margin: 0 15%;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.blaze-flex-center {
+    margin: 0 15%;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.blaze-section-dark {
+    background-color: #1A1D30;
+}
+
+.blaze-section-light {
+    background-color: white;
+}
+
+/* Media */
+
+@media only screen and (max-width: 1125px) {
+    .blaze-navbar, .blaze-navbar-transparent {
+        width: 100vw;
+        padding: 0 5%;
+    }
+    
+    .blaze-flex-start, .blaze-flex-center {
+        margin: 0 5%;
+    } 
+    
+    .blaze-size-xs, .blaze-size-s, .blaze-size-m, .blaze-size-l, .blaze-size-xl {
+        margin: 0 auto;
+    } 
+}
