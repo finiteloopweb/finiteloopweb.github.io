@@ -411,12 +411,8 @@ body {
 
 @media only screen and (max-width: 1125px) {
     .blaze-navbar, .blaze-navbar-transparent {
-        width: 100vw;
+        width: 90vw;
         padding: 0 5%;
-    }
-    
-    .blaze-nav {
-        padding-right: 8%;
     }
     
     .blaze-nav-text {
