@@ -351,6 +351,10 @@ body {
     padding: 0 10px;
 }
 
+.blaze-nav span {
+    display: none;
+}
+
 /* Content */
 
 .blaze-flex-start {
@@ -387,6 +391,30 @@ body {
         padding: 0 5%;
     }
     
+    .blaze-nav a {
+        display: none;
+    }
+    
+    .blaze-nav a.icon {
+        display: block;
+    }
+    
+    .blaze-nav.responsive {
+        position: relative;
+    }
+    
+    .blaze-nav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    .blaze-nav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    
     .blaze-flex-start, .blaze-flex-center {
         margin: 0 5%;
     } 
@@ -394,4 +422,5 @@ body {
     .blaze-size-xs, .blaze-size-s, .blaze-size-m, .blaze-size-l, .blaze-size-xl {
         margin: 0 auto;
     } 
+    
 }
