@@ -345,7 +345,7 @@ body {
     opacity: 0.6;
 }
 
-.blaze-nav a:active {
+.active {
     color: #4facfe;
 }
 
