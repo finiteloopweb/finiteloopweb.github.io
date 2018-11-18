@@ -188,7 +188,8 @@ body {
 .blaze-primary-button:active,
 .blaze-secondary-button:active,
 .blaze-negative-button:active,
-.blaze-outline-button:active {
+.blaze-outline-button:active,
+.blaze-outline-button-dark:active {
     opacity: 0.8;
     transition: 0.25s;
 }
@@ -315,9 +316,22 @@ body {
     padding: 10px 30px;
     border-radius: 25px;
     border: 1px solid transparent;
-    opacity: 0.8;
     font-size: 1em;
     color: #1A1D30;
+    background-color: whitesmoke;
+    margin: 10px;
+}
+
+.blaze-form-textarea {
+    min-width: 85%;
+    max-width: 85%;
+    min-height: 100px;
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    font-size: 1em;
+    color: #1A1D30;
+    background-color: whitesmoke;
     margin: 10px;
 }
 
@@ -394,6 +408,15 @@ body {
     align-content: space-around;
     align-items: center;
     justify-content: space-around;
+    text-align: center;
+}
+
+.blaze-flex-form {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
