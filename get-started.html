@@ -39,32 +39,42 @@
         <br>
         <form action="https://formspree.io/projects@finiteloop.co" method="POST" class="blaze-flex-form">
             <div id="company-info">
+                <h4 class="blaze-h4-dark">Company Info</h4>
+                <hr>
                 <input type="text" name="company-name" class="blaze-form-input blaze-shadow-s" placeholder="Company Name" required>
                 <input type="text" name="industry" class="blaze-form-input blaze-shadow-s" placeholder="Industry" required>
                 <input type="text" name="address" class="blaze-form-input blaze-shadow-s" placeholder="Company Address" required>
             </div>
             <div id="contact-info">
+                <h4 class="blaze-h4-dark">Contact Info</h4>
+                <hr>
                 <input type="text" name="name" class="blaze-form-input blaze-shadow-s" placeholder="Name" required>
                 <input type="phone" name="phone-number" class="blaze-form-input blaze-shadow-s" placeholder="Phone Number" required>
                 <input type="text" name="_replyto" class="blaze-form-input blaze-shadow-s" placeholder="Email Address" required>
             </div>
             <div id="vision-mission">
+                <h4 class="blaze-h4-dark">Company Vision &amp; Mission</h4>
+                <hr>
                 <textarea name="vision" class="blaze-form-textarea blaze-shadow-s" placeholder="Vision" required></textarea>
                 <textarea name="mission" class="blaze-form-textarea blaze-shadow-s" placeholder="Mission" required></textarea>
             </div>
             <div id="company-files">
+                <h4 class="blaze-h4-dark">Project Files</h4>
+                <hr>
                 <label for="logo">Upload Logo</label>
                 <input type="file" name="logo" accept="image/png, image/jpeg" class="blaze-file-input" required>
                 <label for="branding-guide">Upload Branding Guide</label>
                 <input type="file" name="branding-guide" accept="image/png, image/jpeg" class="blaze-file-input">
             </div>
             <div id="plan">
-                    <label for="basic" style="margin-left: 5px;">Basic Plan</label>
-                    <input type="radio" name="plan" value="basic" checked>
-                    <label for="basic" style=" margin-left: 5px;">Plus Plan</label>
-                    <input type="radio" name="plan" value="plus">
-                    <label for="basic" style="margin-left: 5px;">Pro Plan</label>
-                    <input type="radio" name="plan" value="pro">
+                <h4 class="blaze-h4-dark">Plan Selection</h4>
+                <hr>
+                <label for="basic" style="margin-left: 5px;">Basic Plan</label>
+                <input type="radio" name="plan" value="basic" checked>
+                <label for="basic" style=" margin-left: 5px;">Plus Plan</label>
+                <input type="radio" name="plan" value="plus">
+                <label for="basic" style="margin-left: 5px;">Pro Plan</label>
+                <input type="radio" name="plan" value="pro">
             </div>
             <h4 class="blaze-h4-dark" style="width: 100%">You will be billed upon completion of your website and monthly thereafter. <br> Credit card information will be collected at that time.</h4>
             <input type="submit" value="Send" class="blaze-primary-button blaze-shadow-m">

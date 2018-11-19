@@ -162,3 +162,9 @@ hr {
     color: #368FCE;
     width: 100px;
 }
+
+@media only screen and (max-width: 1125px) {
+    #vision-mission {
+        width: 100%;
+    }
+}

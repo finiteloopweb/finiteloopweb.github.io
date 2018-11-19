@@ -470,4 +470,8 @@ body {
         padding: 20px 15%;
     }
     
+    .blaze-form-textarea {
+        max-width: 70%;
+        min-width: 70%;
+    }
 }
