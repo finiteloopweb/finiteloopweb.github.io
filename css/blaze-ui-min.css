@@ -471,7 +471,8 @@ body {
     }
     
     .blaze-form-textarea {
-        max-width: 70%;
-        min-width: 70%;
+        max-width: 80%;
+        min-width: 80%;
+        margin: 0;
     }
 }
