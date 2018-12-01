@@ -415,9 +415,9 @@ body {
     display: flex;
     flex-flow: row wrap;
     align-content: center;
-    align-items: center;
+    align-items: space-around;
     justify-content: center;
-    text-align: space-around;
+    text-align: center;
 }
 
 .blaze-flex-form {
