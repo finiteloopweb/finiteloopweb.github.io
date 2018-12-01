@@ -235,6 +235,14 @@ body {
     filter: invert(.5) sepia(1) saturate(5) hue-rotate(175deg) brightness(.3);
 }
 
+.blaze-icon-s {
+    width: 20px;
+    vertical-align: middle;
+    margin-bottom: 3px;
+    margin-right: 5px;
+    filter: invert(1);
+}
+
 /* Images */
 
 .blaze-img-round-s {
@@ -414,8 +422,8 @@ body {
 .blaze-flex-center-close {
     display: flex;
     flex-flow: row wrap;
-    align-content: center;
-    align-items: space-around;
+    align-content: space-around;
+    align-items: center;
     justify-content: center;
     text-align: center;
 }
