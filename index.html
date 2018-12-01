@@ -14,6 +14,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.22/js/uikit.min.js"></script>
     <title>FiniteLoop Home</title>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130171238-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-130171238-1');
+    </script>
+
 </head>
 
 <body>
@@ -23,10 +33,12 @@
         <a href="index.html" uk-scroll><img src="images/general/logo.png" class="blaze-logo"></a>
         <nav class="blaze-nav" id="Nav">
             <ul>
-                <li><a href="index.html" class="active" uk-scroll><img src="images/icons/home.svg" class="blaze-icon-nav"><span class="blaze-nav-text">&nbsp;Home</span></a></li>
+                <li><a href="index.html" class="active" uk-scroll><img src="images/icons/home.svg" class="blaze-icon-nav"><span
+                            class="blaze-nav-text">&nbsp;Home</span></a></li>
                 <li><a href="services.html"><img src="images/icons/suitcase.svg" class="blaze-icon-nav"><span class="blaze-nav-text">&nbsp;Services</span></a></li>
                 <li><a href="pricing.html"><img src="images/icons/card.svg" class="blaze-icon-nav"><span class="blaze-nav-text">&nbsp;Pricing</span></a></li>
-                <li><a href="get-started.html"><img src="images/icons/rocket.svg" class="blaze-icon-nav"><span class="blaze-nav-text">&nbsp;Get Started</span></a></li>
+                <li><a href="get-started.html"><img src="images/icons/rocket.svg" class="blaze-icon-nav"><span class="blaze-nav-text">&nbsp;Get
+                            Started</span></a></li>
             </ul>
         </nav>
     </div>
@@ -36,7 +48,8 @@
         <div class="blaze-flex-center" id="hero-content">
             <div id="intro">
                 <h1 class="blaze-h1-dark">Put your best foot forward.</h1>
-                <p class="blaze-p-dark blaze-size-l">Your website is often the first impression that your customers get. We'll ensure you make a good one.</p>
+                <p class="blaze-p-dark blaze-size-l">Your website is often the first impression that your customers
+                    get. We'll ensure you make a good one.</p>
                 <a href="#about" uk-scroll><button class="blaze-outline-button-dark">Why Us</button></a>
                 <a href="services.html"><button class="blaze-primary-button blaze-shadow-m">Learn More</button></a>
             </div>
@@ -66,7 +79,11 @@
             </div>
         </div>
         <div>
-            <p class="blaze-p-light">Get a website that's tailored to you - no templates, no hassle. Just provide us with some basic materials and we'll get you up and running. FiniteLoop aims to be the one-stop solution to the mess of web development: we'll take care of hosting and help you find the right domain for you or your business. We're also constantly evolving, bringing new techniques in to make your site run smoothly, look great, and attract visitors. Just say the word, and we'll get to work.</p>
+            <p class="blaze-p-light">Get a website that's tailored to you - no templates, no hassle. Just provide us
+                with some basic materials and we'll get you up and running. FiniteLoop aims to be the one-stop solution
+                to the mess of web development: we'll take care of hosting and help you find the right domain for you
+                or your business. We're also constantly evolving, bringing new techniques in to make your site run
+                smoothly, look great, and attract visitors. Just say the word, and we'll get to work.</p>
         </div>
     </section>
 
@@ -120,13 +137,13 @@
 
 <!-- Refresh Page on Orientation Change -->
 <script>
-    jQuery(document).ready(function($) {
+    jQuery(document).ready(function ($) {
         orientationChange();
     });
 
     function orientationChange() {
         if (window.addEventListener) {
-            window.addEventListener("orientationchange", function() {
+            window.addEventListener("orientationchange", function () {
                 location.reload();
             });
         }

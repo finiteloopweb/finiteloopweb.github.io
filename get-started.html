@@ -14,6 +14,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.22/js/uikit.min.js"></script>
     <title>FiniteLoop Home</title>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130171238-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-130171238-1');
+    </script>
+
 </head>
 
 <body>
@@ -26,7 +36,8 @@
                 <li><a href="index.html"><img src="images/icons/home.svg" class="blaze-icon-nav"><span class="blaze-nav-text">&nbsp;Home</span></a></li>
                 <li><a href="services.html"><img src="images/icons/suitcase.svg" class="blaze-icon-nav"><span class="blaze-nav-text">&nbsp;Services</span></a></li>
                 <li><a href="pricing.html"><img src="images/icons/card.svg" class="blaze-icon-nav"><span class="blaze-nav-text">&nbsp;Pricing</span></a></li>
-                <li><a href="get-started.html" class="active" uk-scroll><img src="images/icons/rocket.svg" class="blaze-icon-nav"><span class="blaze-nav-text">&nbsp;Get Started</span></a></li>
+                <li><a href="get-started.html" class="active" uk-scroll><img src="images/icons/rocket.svg" class="blaze-icon-nav"><span
+                            class="blaze-nav-text">&nbsp;Get Started</span></a></li>
             </ul>
         </nav>
     </div>
@@ -41,16 +52,21 @@
             <div id="company-info">
                 <h4 class="blaze-h4-dark">Company Info</h4>
                 <hr>
-                <input type="text" name="company-name" class="blaze-form-input blaze-shadow-s" placeholder="Company Name" required>
-                <input type="text" name="industry" class="blaze-form-input blaze-shadow-s" placeholder="Industry" required>
-                <input type="text" name="address" class="blaze-form-input blaze-shadow-s" placeholder="Company Address" required>
+                <input type="text" name="company-name" class="blaze-form-input blaze-shadow-s" placeholder="Company Name"
+                    required>
+                <input type="text" name="industry" class="blaze-form-input blaze-shadow-s" placeholder="Industry"
+                    required>
+                <input type="text" name="address" class="blaze-form-input blaze-shadow-s" placeholder="Company Address"
+                    required>
             </div>
             <div id="contact-info">
                 <h4 class="blaze-h4-dark">Contact Info</h4>
                 <hr>
                 <input type="text" name="name" class="blaze-form-input blaze-shadow-s" placeholder="Name" required>
-                <input type="phone" name="phone-number" class="blaze-form-input blaze-shadow-s" placeholder="Phone Number" required>
-                <input type="text" name="_replyto" class="blaze-form-input blaze-shadow-s" placeholder="Email Address" required>
+                <input type="phone" name="phone-number" class="blaze-form-input blaze-shadow-s" placeholder="Phone Number"
+                    required>
+                <input type="text" name="_replyto" class="blaze-form-input blaze-shadow-s" placeholder="Email Address"
+                    required>
             </div>
             <div id="vision-mission">
                 <h4 class="blaze-h4-dark">Company Vision &amp; Mission</h4>
@@ -68,7 +84,9 @@
                 <label for="basic" style="margin-left: 5px;">Pro Plan</label>
                 <input type="radio" name="plan" value="pro">
             </div>
-            <h4 class="blaze-h4-dark" style="width: 100%">We will email you for project files and other site requirements. <br>You will be billed upon completion of your website and monthly thereafter. <br>Payment information will be collected at that time.</h4>
+            <h4 class="blaze-h4-dark" style="width: 100%">We will email you for project files and other site
+                requirements. <br>You will be billed upon completion of your website and monthly thereafter. <br>Payment
+                information will be collected at that time.</h4>
             <input type="submit" value="Send" class="blaze-primary-button blaze-shadow-m">
         </form>
     </section>
@@ -100,13 +118,13 @@
 
 <!-- Refresh Page on Orientation Change -->
 <script>
-    jQuery(document).ready(function($) {
+    jQuery(document).ready(function ($) {
         orientationChange();
     });
 
     function orientationChange() {
         if (window.addEventListener) {
-            window.addEventListener("orientationchange", function() {
+            window.addEventListener("orientationchange", function () {
                 location.reload();
             });
         }

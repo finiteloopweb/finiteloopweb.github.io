@@ -14,6 +14,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.22/js/uikit.min.js"></script>
     <title>FiniteLoop Services</title>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130171238-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-130171238-1');
+    </script>
+
 </head>
 
 <body>
@@ -25,8 +35,10 @@
             <ul>
                 <li><a href="index.html"><img src="images/icons/home.svg" class="blaze-icon-nav"><span class="blaze-nav-text">&nbsp;Home</span></a></li>
                 <li><a href="services.html"><img src="images/icons/suitcase.svg" class="blaze-icon-nav"><span class="blaze-nav-text">&nbsp;Services</span></a></li>
-                <li><a href="pricing.html" class="active" uk-scroll><img src="images/icons/card.svg" class="blaze-icon-nav"><span class="blaze-nav-text">&nbsp;Pricing</span></a></li>
-                <li><a href="get-started.html"><img src="images/icons/rocket.svg" class="blaze-icon-nav"><span class="blaze-nav-text">&nbsp;Get Started</span></a></li>
+                <li><a href="pricing.html" class="active" uk-scroll><img src="images/icons/card.svg" class="blaze-icon-nav"><span
+                            class="blaze-nav-text">&nbsp;Pricing</span></a></li>
+                <li><a href="get-started.html"><img src="images/icons/rocket.svg" class="blaze-icon-nav"><span class="blaze-nav-text">&nbsp;Get
+                            Started</span></a></li>
             </ul>
         </nav>
     </div>
@@ -81,7 +93,12 @@
         <div>
             <h2 class="blaze-h2-dark">What You Get</h2>
             <hr>
-            <p class="blaze-p-dark">At FiniteLoop, we want to make the barrier of entry low for getting a custom website. Most web development firms charge thousands of dollars, and you still have to pay hosting fees. If you build your site with us, you'll pay an initial fee for us to create the first draft, and a monthly fee to cover hosting and maintenance. This is done with three different plans, with the basic plan catering toward small businesses and personal websites and the pro plan directed towards larger businesses.</p>
+            <p class="blaze-p-dark">At FiniteLoop, we want to make the barrier of entry low for getting a custom
+                website. Most web development firms charge thousands of dollars, and you still have to pay hosting
+                fees. If you build your site with us, you'll pay an initial fee for us to create the first draft, and a
+                monthly fee to cover hosting and maintenance. This is done with three different plans, with the basic
+                plan catering toward small businesses and personal websites and the pro plan directed towards larger
+                businesses.</p>
         </div>
     </section>
 
@@ -112,13 +129,13 @@
 
 <!-- Refresh Page on Orientation Change -->
 <script>
-    jQuery(document).ready(function($) {
+    jQuery(document).ready(function ($) {
         orientationChange();
     });
 
     function orientationChange() {
         if (window.addEventListener) {
-            window.addEventListener("orientationchange", function() {
+            window.addEventListener("orientationchange", function () {
                 location.reload();
             });
         }
