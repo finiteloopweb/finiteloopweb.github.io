@@ -453,10 +453,10 @@ body {
     }
 
     .blaze-icon-nav {
-        width: 30px;
+        width: 25px;
         vertical-align: middle;
         margin-bottom: 0px;
-        margin-right: 5px;
+        margin-right: 0px;
     }
     
     .blaze-section-light, .blaze-section-dark, .blaze-section {
@@ -483,4 +483,18 @@ body {
         margin: 0;
     }
 
+}
+
+@media only screen and (max-width: 640px) {
+    .blaze-icon-nav {
+        width: 22px;
+        vertical-align: middle;
+        margin-bottom: 0px;
+        margin-right: 0px;
+    }
+
+    .blaze-navbar, .blaze-navbar-transparent {
+        width: 94vw;
+        padding: 0 3%;
+    }
 }
