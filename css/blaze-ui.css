@@ -451,6 +451,13 @@ body {
     .blaze-nav-text {
         display: none;
     }
+
+    .blaze-icon-nav {
+        width: 30px;
+        vertical-align: middle;
+        margin-bottom: 0px;
+        margin-right: 5px;
+    }
     
     .blaze-section-light, .blaze-section-dark, .blaze-section {
         padding: 80px 10%;
