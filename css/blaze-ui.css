@@ -411,6 +411,15 @@ body {
     text-align: center;
 }
 
+.blaze-flex-center-close {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    align-items: space-around;
+    justify-content: center;
+    text-align: center;
+}
+
 .blaze-flex-form {
     display: flex;
     flex-flow: row wrap;
